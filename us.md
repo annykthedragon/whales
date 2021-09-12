@@ -10,4 +10,4 @@
 Обратитесь к нам в Telegram [**КИТЫ+**]().
 
 
-![КИТЫ+](.\our-photos\WHALES+.jfif)
+![КИТЫ+](our-photos/WHALES+.jfif)
