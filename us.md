@@ -10,4 +10,4 @@
 Обратитесь к нам в Telegram [**КИТЫ+**]().
 
 
-![КИТЫ+](https://github.com/annykthedragon/whales/blob/aa6cc0728bbb84ef188475c2d81c6c0d8ef8a133/our-photos/WHALES+.jfif)
+![КИТЫ+](https://github.com/annykthedragon/whales/blob/main/our-photos/WHALES+.jpg?raw=true)
