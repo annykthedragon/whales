@@ -1,9 +1,7 @@
-```html
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-```
+
 # **КИТЫ+**
 
-```html
 <div class="row" style="text-align:center"> 
     <div class="col-lg-2 col-md-5 col-sm-5">
         <img src="our-photos\Sveta.jpg" alt="Света" style="border-radius: 500px; border: 2px solid #000;">
@@ -26,7 +24,6 @@
         <p>🐋 Лера Ляпина<p>
     </div>
 </div>
-```
 Мы - команда "КИТЫ+" из Екатеринбурга.
 
 
@@ -34,7 +31,8 @@
 
 ### Есть вопросы? Замечания?
 Обратитесь к нам в Telegram [**КИТЫ+**]().
-```html
+
+
 <br>
 <br>
 <div class="row" style="text-align:center"> 
@@ -44,4 +42,3 @@
     </div>
 
 </div>
-```
