@@ -1,5 +1,5 @@
-# **Независимый оценщик** 
-## **оценка имущества на основе [Machine Learning](https://www.google.com/search?q=%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5+%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5&oq=%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5+%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5&aqs=chrome..69i57j69i61j69i60j69i61.4881j0j7&sourceid=chrome&ie=UTF-8)**
+# **Независимый оценщик:
+оценка имущества на основе [Machine Learning](https://www.google.com/search?q=%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5+%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5&oq=%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5+%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5&aqs=chrome..69i57j69i61j69i60j69i61.4881j0j7&sourceid=chrome&ie=UTF-8)**
 
 Данный проект реализован в рамках отборочного этапа [хакатона FINOdays](https://finodays.com/).
 
