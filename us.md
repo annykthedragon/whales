@@ -10,4 +10,4 @@
 Обратитесь к нам в Telegram [**КИТЫ+**]().
 
 
-![КИТЫ+](.\our-photos\WHALES+.jfif){border-radius: 500px; border: 2px solid #000;}
+![КИТЫ+](.\our-photos\WHALES+.jfif)
