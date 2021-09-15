@@ -14,7 +14,6 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
 import warnings
-import time
 warnings.filterwarnings('ignore')
 
 @st.cache(show_spinner=False)
@@ -305,7 +304,8 @@ def main():
                 'Rolls-Royce ', 'Rover ', 'SEAT ', 'Saab ', 'Scion ', 'Skoda ', 'Smart ', 
                 'SsangYong ', 'Subaru ', 'Suzuki ', 'TagAZ ', 'Tesla ', 'Toyota ', 
                 'Volkswagen ', 'Volvo ', 'Vortex ', 'YAZ ', 'ZAZ ', 'ZX '])
-                Model = st.sidebar.text_input('Модель', 'Vito')  
+                Model = st.sidebar.text_input('Модель', 'Vito')
+                Engine_volume = st.sidebar.slider('Объём двигателя', 599, 8200, 2337)    
                 Year = st.sidebar.slider('Год выпуска', 1927, 2021, 2018)  
                 Box = st.sidebar.selectbox('Коробка передач',
                 ['automatic', 'mechanics', 'robot', 'variator'])
@@ -316,6 +316,7 @@ def main():
                 сdata = {'Car_type': Car_type,
                         'mark': mark,
                         'Model': Model,
+                        'Engine_volume':Engine_volume,
                         'Year': Year,
                         'Box': Box,
                         'Engine': Engine,
@@ -326,7 +327,6 @@ def main():
 
             #Создаем датафрейм с параметрами квартиры
             transport = user_input_features_с()
-            print(transport)
 
             #Вычисляем столбцы с категорийными признаками, затем заменяем их на числа
             car_columns = transport.columns[transport.dtypes == 'object']
@@ -366,6 +366,7 @@ def main():
                 keep_col = ['Car_type',
                             'mark', 
                             'Model', 
+                            'Engine_volume',
                             'Year', 
                             'Box',
                             'Engine',
@@ -409,6 +410,7 @@ def main():
                             'Car_type', 
                             'mark', 
                             'Model', 
+                            'Engine_volume',
                             'Year', 
                             'Box',
                             'Engine',
@@ -462,6 +464,8 @@ def main():
 
                 #Печатаем предсказанное значение цены предложения
                 placeholder1.empty()
+                with placeholder2.container():
+                        st.warning('Тестовые вычисления для данного показателя могут быть не точны.')
 
                 st.write(f'## Ожидаемая цена транспортного средства: {int(price_с[0].round(-3))} рублей')
                 st.balloons()
